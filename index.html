@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="work_survey">
+        <div class="form-group">
+          <h3>In the past year, I have used the following modes of transportation to travel to work or school:</h3>
+          <input type="checkbox" name="work-transportation" value="bike"> Car<br>
+          <input type="checkbox" name="work-transportation" value="car">Bike<br>
+          <input type="checkbox" name="work-transportation" value="carpool">Carpool<br>
+          <input type="checkbox" name="work-transportation" value="walk">Walk<br>
+          <br>
+          <button type="submit">Submit Survey</button>
+        </div>
+        <br>
+        <br>
+      </form>
+      <span id="work-responses">
+        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      </span>
+        <form id="leisure_survey">
+        <div class="form-group">
+          <h3>In the past year, I have used the following modes of transportation for leisure:</h3>
+          <input type="checkbox" name="leisure-transportation" value="rideshare">Lyft or Uber<br>
+          <input type="checkbox" name="leisure-transportation" value="skateboard">Skateboarding<br>
+          <input type="checkbox" name="leisure-transportation" value="rollerblade">Rollerblading<br>
+          <input type="checkbox" name="leisure-transportation" value="scooter">Riding a scooter<br>
+          <input type="checkbox" name="leisure-transportation" value="other">Another mode of transportation not listed here.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="leisure-responses">
+        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
